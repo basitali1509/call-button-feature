@@ -69,7 +69,7 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: _launchPhoneDialer,
-        tooltip: 'Increment',
+        tooltip: 'Dial',
         child: const Icon(Icons.phone),
       ),
     );
