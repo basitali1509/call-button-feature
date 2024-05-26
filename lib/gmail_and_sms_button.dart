@@ -61,7 +61,7 @@ class _GmailAndSmsButtonState extends State<GmailAndSmsButton> {
               onPressed: _launchSMS,
               icon: const FaIcon(
                 FontAwesomeIcons.commentSms,
-                size: 70,
+                size: 50,
                 color: Colors.blue,
               ),
             ),
@@ -74,7 +74,7 @@ class _GmailAndSmsButtonState extends State<GmailAndSmsButton> {
             onPressed: _launchGmail,
             icon: const FaIcon(
               FontAwesomeIcons.google,
-              size: 70,
+              size: 50,
               color: Colors.red,
             ),
           ))
